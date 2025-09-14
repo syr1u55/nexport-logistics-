@@ -13,6 +13,7 @@ export default function Home() {
           <a href="#services">Services</a>
           <a href="/about">About Us</a>
           <a href="/contact">Contact</a>
+          <a href="/tracking">Tracking</a>
         </nav>
       </header>
 
