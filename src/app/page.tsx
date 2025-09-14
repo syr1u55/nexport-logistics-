@@ -10,7 +10,7 @@ export default function Home() {
           <h1>Nexport Logistics</h1>
         </div>
         <nav className={styles.nav}>
-          <a href="#services">Services</a>
+          <a href="/services">Services</a>
           <a href="/about">About Us</a>
           <a href="/contact">Contact</a>
           <a href="/tracking">Tracking</a>
