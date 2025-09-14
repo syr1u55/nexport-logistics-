@@ -1,0 +1,55 @@
+
+.page {
+  padding: 2rem;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

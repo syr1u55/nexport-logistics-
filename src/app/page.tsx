@@ -12,7 +12,7 @@ export default function Home() {
         <nav className={styles.nav}>
           <a href="#services">Services</a>
           <a href="/about">About Us</a>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </nav>
       </header>
 
