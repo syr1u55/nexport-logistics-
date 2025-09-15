@@ -11,6 +11,7 @@ const services = [
   { name: "Warehousing", href: "/services/warehousing" },
   { name: "Diplomatic Shipment", href: "/services/diplomatic-shipment" },
   { name: "Supply Chain", href: "/services/supply-chain" },
+  { name: "Cargo Insurance", href: "/services/cargo-insurance" },
 ];
 
 export default function Services() {
