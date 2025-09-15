@@ -45,7 +45,7 @@
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1563784462041-5f866758e330?q=80&w=2070&auto=format&fit=crop"); /* Logistics-related image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://nexportlogistics.com/wp-content/uploads/2023/11/cargo1-scaled.jpeg");
   background-size: cover;
   background-position: center;
   color: #fff;
