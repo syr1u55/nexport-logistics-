@@ -71,13 +71,15 @@ export default function Tracking() {
                   <p><strong>Current Location:</strong> {trackingInfo.location}</p>
                   <p><strong>Estimated Delivery:</strong> {trackingInfo.estimatedDelivery}</p>
                   <h3>Details:</h3>
-                  <ul className={styles.trackingDetails}>
-                    {trackingInfo.details.map((event, index) => (
-                      <li key={index}>
-                        <span>{event.date} {event.time}</span> - <span>{event.status}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {trackingInfo.details && trackingInfo.details.length > 0 && (
+                    <ul className={styles.trackingDetails}>
+                      {trackingInfo.details.map((event, index) => (
+                        <li key={index}>
+                          <span>{event.date} {event.time}</span> - <span>{event.status}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </>
               )}
             </div>
