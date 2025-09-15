@@ -22,10 +22,16 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <h2>SEA FREIGHT MANAGEMENT</h2>
-            <p>FCL and LCL shipments worldwide, including time-definite options.</p>
-            <a href="#contact" className={styles.primary}>Get a Quote</a>
+            <h2>ACCELERATE YOUR FREIGHT WITH NEXPORT LOGISTICS</h2>
+            <p>SAFE & SECURE DELIVERY SERVICES AROUND THE WORLD!</p>
+            <a href="/quote" className={styles.primary}>Get a Quote</a>
           </div>
+        </section>
+
+        <section className={styles.whatWeOffer}>
+          <h2>WHAT WE OFFER</h2>
+          <p>Whatever your business, whatever you’re building, packing and sending – Nexport Logistics has you covered with state-of-the-art transportation and distribution solutions.</p>
+          <a href="/services" className={styles.primary}>MORE ABOUT US</a>
         </section>
 
         <section id="services" className={styles.services}>
