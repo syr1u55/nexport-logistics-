@@ -10,7 +10,20 @@ export default function Home() {
           <h1>Nexport Logistics</h1>
         </div>
         <nav className={styles.nav}>
-          <a href="/services">Services</a>
+          <div className={styles.dropdown}>
+            <a href="/services" className={styles.dropbtn}>Services</a>
+            <div className={styles.dropdownContent}>
+              <a href="/services/land-transport">Land Transport</a>
+              <a href="/services/sea-freight">Sea Freight</a>
+              <a href="/services/air-freight">Air Freight</a>
+              <a href="/services/forwarding-services">Forwarding Services</a>
+              <a href="/services/logistics">Logistics</a>
+              <a href="/services/warehousing">Warehousing</a>
+              <a href="/services/diplomatic-shipment">Diplomatic Shipment</a>
+              <a href="/services/supply-chain">Supply Chain</a>
+              <a href="/services/cargo-insurance">Cargo Insurance</a>
+            </div>
+          </div>
           <a href="/about">About Us</a>
           <a href="/contact">Contact</a>
           <a href="/tracking">Tracking</a>
