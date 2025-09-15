@@ -50,6 +50,17 @@ export default function Tracking() {
           { date: "2025-09-16", time: "02:00 PM", status: "Pending Dispatch" },
         ],
       });
+    } else if (trackingNumber === "98765") {
+      setTrackingInfo({
+        status: "Pending Dispatch Authorization",
+        location: "Warehouse, Lagos",
+        estimatedDelivery: "2025-09-28",
+        details: [
+          { date: "2025-09-17", time: "09:00 AM", status: "Order received" },
+          { date: "2025-09-17", time: "11:00 AM", status: "Pending Dispatch" },
+          { date: "2025-09-17", time: "03:00 PM", status: "Pending Dispatch Authorization" },
+        ],
+      });
     } else {
       setTrackingInfo({ status: "Not Found", message: "Tracking number not found." });
     }
@@ -64,7 +75,7 @@ export default function Tracking() {
           <div className={styles.form}>
             <input
               type="text"
-              placeholder="Enter your tracking number (e.g., 12345, 67890, or 54321)"
+              placeholder="Enter your tracking number (e.g., 12345, 67890, 54321, or 98765)"
               value={trackingNumber}
               onChange={(e) => setTrackingNumber(e.target.value)}
             />
