@@ -2,11 +2,19 @@
 "use client";
 
 import { useState } from "react";
+
+interface TrackingInfo {
+  status: string;
+  location?: string;
+  estimatedDelivery?: string;
+  details?: { date: string; time: string; status: string }[];
+  message?: string;
+}
 import styles from "./page.module.css";
 
 export default function Tracking() {
   const [trackingNumber, setTrackingNumber] = useState("");
-  const [trackingInfo, setTrackingInfo] = useState(null);
+  const [trackingInfo, setTrackingInfo] = useState<TrackingInfo | null>(null);
 
   const handleTrack = () => {
     // Simulate API call
