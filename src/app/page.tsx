@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -50,22 +51,22 @@ export default function Home() {
         <section id="services" className={styles.services}>
           <h2>Our Services</h2>
           <div className={styles.serviceGrid}>
-            <div className={styles.serviceCard}>
+            <Link href="/services/land-transport" className={styles.serviceCard}>
               <h3>Land Transport</h3>
               <p>We handle your parcel delivery with professionalism and thoroughness.</p>
-            </div>
-            <div className={styles.serviceCard}>
+            </Link>
+            <Link href="/services/sea-freight" className={styles.serviceCard}>
               <h3>Sea Freight</h3>
               <p>Our Customized pricing of Ocean Transport is a major attraction.</p>
-            </div>
-            <div className={styles.serviceCard}>
+            </Link>
+            <Link href="/services/air-freight" className={styles.serviceCard}>
               <h3>Air Freight</h3>
               <p>Nexport Logistics freight management solutions can track and manage.</p>
-            </div>
-            <div className={styles.serviceCard}>
+            </Link>
+            <Link href="/services/warehousing" className={styles.serviceCard}>
               <h3>Warehousing</h3>
               <p>We evaluate warehouse design strategically and provide solutions.</p>
-            </div>
+            </Link>
           </div>
         </section>
       </main>
