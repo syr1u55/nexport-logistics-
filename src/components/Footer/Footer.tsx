@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.column}>
-          <h3>worldlink Cargo Solutions</h3>
+          <h3>Worldlink Cargo Solutions</h3>
           <p>Your trusted partner in logistics and supply chain management.</p>
         </div>
         <div className={styles.column}>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.bottomBar}>
-        <p>&copy; {new Date().getFullYear()} worldlink Cargo Solutions. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Worldlink Cargo Solutions. All rights reserved.</p>
       </div>
     </footer>
   );

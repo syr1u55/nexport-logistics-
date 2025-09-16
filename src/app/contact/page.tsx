@@ -8,7 +8,7 @@ export default function ContactUs() {
         <h1 className={styles.title}>Contact Us</h1>
         <div className={styles.content}>
           <div className={styles.info}>
-            <h3>worldlink Cargo Solutions</h3>
+            <h3>Worldlink Cargo Solutions</h3>
             <p>52 Mintern Street, Commercial Unit,</p>
             <p>Hoxton, London, United Kingdom, N1 5EG</p>
             <p>Phone: +1 (936) 635 - 0467</p>
