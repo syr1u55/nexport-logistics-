@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.column}>
-          <h3>Nexport Logistics</h3>
+          <h3>Wordlink Cargo Solutions</h3>
           <p>Your trusted partner in logistics and supply chain management.</p>
         </div>
         <div className={styles.column}>
@@ -29,13 +29,13 @@ const Footer = () => {
         </div>
         <div className={styles.column}>
           <h3>Contact Us</h3>
-          <p>Email: info@nexportlogistics.com</p>
+          <p>Email: info@wordlinkcargo.com</p>
           <p>Phone: +123 456 7890</p>
           <p>Address: 123 Logistics St, Global City</p>
         </div>
       </div>
       <div className={styles.bottomBar}>
-        <p>&copy; {new Date().getFullYear()} Nexport Logistics. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Wordlink Cargo Solutions. All rights reserved.</p>
       </div>
     </footer>
   );
