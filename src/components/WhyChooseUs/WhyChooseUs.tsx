@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
           </div>
           <div className={styles.featureCard}>
             <h3>Secure & Reliable</h3>
-            <p>Your cargo's safety and timely delivery are our top priorities.</p>
+            <p>Your cargo&apos;s safety and timely delivery are our top priorities.</p>
           </div>
           <div className={styles.featureCard}>
             <h3>Competitive Pricing</h3>
