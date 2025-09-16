@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <section className={styles.whyChooseUsSection}>
       <div className={styles.container}>
-        <h2>Why Choose Nexport Logistics?</h2>
+        <h2>Why Choose Worldlink Cargo Solutions?</h2>
         <p className={styles.subtitle}>
           We are dedicated to providing top-notch logistics solutions tailored to your needs.
         </p>
